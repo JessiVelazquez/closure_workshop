@@ -31,3 +31,16 @@ Javascript Engine:
 
 ![Execution Context](exec_context.png)
 
+**Interesting scoping thing:**
+
+When you declare a function within a function, and return that function, then assign a variable to the outer function, the variable call ```myNewFunction()``` is essentially ```incrementCounter()``` with access to the counter variable - even though the counter variable is not global at the time ```myNewFunction``` is called.
+
+![Scope](scope.png)
+
+
+## Other Notes
+
+- When a function declaration goes into memory, it is assigned the value of a function definition (f)
+
+
+
