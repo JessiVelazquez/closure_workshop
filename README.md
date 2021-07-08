@@ -4,7 +4,9 @@ Closure is the data that a function has access to when it is called
 
 **Design Patterns**
 
-- **Module Pattern** - closure is important to this
+- **Module Pattern** - preserve state for the life of an application without polluting the global namespace
+
+  - closure is important to this.
 
 Javascript Engine:
 
