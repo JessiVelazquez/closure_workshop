@@ -37,6 +37,12 @@ When you declare a function within a function, and return that function, then as
 
 ![Scope](scope.png)
 
+If you declare another vartiable set to the outer function ```anotherFunction()```, is does not share a local scope and execution context with the first one ```myNewFunction()```, and therefore does not increment the counter the same as the other function.
+
+i.e. the ```counter``` variable being incremented by ```myNewFunction()``` is a different counter variable than the counter variable within ```anotherFunction()```:
+
+![different backpacks](different_backpacks.png)
+
 
 ## Other Notes
 
